@@ -26,5 +26,17 @@ public class StringExplorer
 
 		int notFoundPsn = sample.indexOf("slow"); 
 		System.out.println("sample.indexOf(\"slow\") = " + notFoundPsn);
+		
+		// experiment with compareTo
+		String example1 = "U";
+		String example2 = "p";
+		System.out.println(example1.compareTo(example2));
+		
+		// experiment with substring
+		String starter = "start middle end";
+		int psn1 = starter.indexOf("middle");
+		System.out.println(starter.substring(psn1, psn1+6));
+		
+		
 	}
 }
